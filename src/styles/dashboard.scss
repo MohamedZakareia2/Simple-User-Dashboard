@@ -1,0 +1,55 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  input.search {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {
+      background: #f1f5f9;
+    }
+
+    a.view-button {
+      padding: 5px 10px;
+      background: #4f46e5;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  }
+
+  .pagination {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+    button {
+      padding: 8px 15px;
+      border-radius: 5px;
+      border: none;
+      background: #e5e7eb;
+
+      &:disabled {
+        background: #f3f4f6;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
