@@ -7,7 +7,7 @@ This is a small dashboard project built with **Next.js**, **Sass**, and **Tailwi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/MohamedZakareia2/User-Dashboard.git
+git clone <https://github.com/MohamedZakareia2/Simple-User-Dashboard>
 
 
   Navigate to the project folder:
@@ -39,24 +39,20 @@ Open your browser and go to http://localhost:3000
  to see the dashboard.
 
 
-dashboard-task/
+ dashboard-task/
 ├─ src/
 │  ├─ pages/
-│  │  ├─ _app.tsx           # App wrapper
-│  │  ├─ index.tsx          # Login page
-│  │  ├─ dashboard.tsx      # Dashboard page
-│  │  └─ user/[id].tsx      # User details page
+│  │  ├─ index.js           # Login page
+│  │  ├─ dashboard.js       # Dashboard page
+│  │  └─ user/[id].js       # User details page
 │  ├─ styles/
 │  │  ├─ globals.scss       # Global styles
-│  │  ├─ login.scss         # Login page styles
-│  │  ├─ dashboard.scss     # Dashboard page styles
-│  │  └─ user.scss          # User page styles
-│  └─ components/           # Optional components like ProtectedRoute, Table, Pagination
+│  │  └─ login.scss         # Login page styles
+│  └─ components/           # Optional components like Pagination, Table
 ├─ package.json
 ├─ tailwind.config.js
 ├─ next.config.js
 └─ README.md
-
 
 
 Features
@@ -80,5 +76,3 @@ Displays Name, Username, Email, Phone, Company, Website
 Read-only
 
 Responsive UI built with Sass and Tailwind
-
-TypeScript for type safety and better developer experience
